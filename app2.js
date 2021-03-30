@@ -1,21 +1,4 @@
- //TIMER//
- const timer = () => {
-    startTimer =  setInterval(()=>{
-       if(time > 0){
-           time --
-           timeGame.innerHTML = time
-         }else {
-             gameOver();
-           }
-        }, 1000);
-        return time;
-   }
-
-   const stopTimer = () =>{
-       clearInterval(startTimer); 
-   };
-
-   
+ 
 //GENERADOR DE GRILLA//
  const tamañoGrilla = (nivel, p) => {
     boxGame.style.height = `${boxGame.clientWidth}px`
